@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="shortcut icon" type="image/icon" href="../favicon (3).ico" />
+    <link rel="stylesheet" href="stopwatch.css" />
+    <meta
+      name="description"
+      content="Stopwatch with minutes seconds and milliseconds"
+    />
+    <meta name="keywords" content="Stopwatch" />
+  </head>
+
+  <body>
+    <div class="stopwatch">
+      <h1>Stopwatch</h1>
+      <div class="wrapper">
+        <p>
+          <span id="minutes">00<sub>Min</sub></span
+          ><span id="colon1">: </span><span id="seconds">00<sub>Sec</sub></span
+          ><span id="colon2">: </span
+          ><span id="milliseconds">00<sub>millisec</sub></span>
+        </p>
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+      </div>
+      <div
+        style="
+          color: #fff;
+          margin-top: -50px;
+          font-size: 15px;
+          letter-spacing: 2px;
+        "
+      >
+        &gt; Countdown Timer
+      </div>
+    </div>
+    <script src="stopwatch.js"></script>
+  </body>
+</html>
